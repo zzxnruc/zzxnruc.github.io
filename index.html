@@ -114,8 +114,7 @@
   <div class="hero">
     <img src="photo.png" alt="Ivan Yantolyk">
     <div>
-      <span class="badge"><i></i><span data-i="open">Open to new opportunities</span></span>
-      <h1 style="margin-top:14px">Ivan Yantolyk</h1>
+      <h1>Ivan Yantolyk</h1>
       <div class="role" data-i="role">IT Technician | L2 IT Support</div>
       <div class="meta">
         <span data-i="loc">📍 Prague, Czech Republic</span>
@@ -222,7 +221,7 @@
 
   <section id="contact" class="contact">
     <h2 data-i="h_contact">Contact</h2>
-    <p data-i="contact_txt">Looking for an IT support or IT technician role in Prague. Feel free to reach out.</p>
+    <p data-i="contact_txt">Feel free to get in touch.</p>
     <div class="cta" style="justify-content:center">
       <a class="btn p" href="mailto:jantolik.vanja08@gmail.com">✉️ jantolik.vanja08@gmail.com</a>
       <a class="btn s" id="linkedin" href="https://www.linkedin.com/in/ivan-yantolyk-8927b53a8/" target="_blank" rel="noopener">LinkedIn</a>
@@ -236,7 +235,6 @@
 <script>
 const CZ = {
   nav_exp:"Zkušenosti", nav_skills:"Dovednosti", nav_contact:"Kontakt",
-  open:"Otevřený novým příležitostem",
   role:"IT technik | L2 IT podpora",
   loc:"📍 Praha, Česká republika",
   cert_short:"🏅 Certifikovaný technik Lenovo",
@@ -268,7 +266,7 @@ const CZ = {
   h_edu:"Vzdělání", e1:"Softwarový vývoj (Bc.)", e1_w:"říjen 2025 – dosud",
   e2_t:"1. KŠPA Praha", e2:"Informační technologie – maturita", e2_w:"září 2021 – květen 2025",
   h_contact:"Kontakt",
-  contact_txt:"Hledám pozici v IT podpoře nebo jako IT technik v Praze. Neváhejte mě kontaktovat."
+  contact_txt:"Neváhejte mě kontaktovat."
 };
 const EN = {};
 document.querySelectorAll('[data-i]').forEach(el => { EN[el.dataset.i] = el.innerHTML; });
